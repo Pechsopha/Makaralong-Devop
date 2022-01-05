@@ -18,10 +18,5 @@ phases:
         commands:
             - echo "we are in the post build phase"
             
-artifacts:
-  files:
-    - '**/*'
-  base-directory: base_dir
-  name: roath_test
-  discard-paths: no
+
             
